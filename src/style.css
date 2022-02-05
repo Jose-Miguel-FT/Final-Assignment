@@ -18,22 +18,24 @@ h1 {
 }
 
 .main {
-  background-color: #81D4FA;
+  background-color: #81d4fa;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 15px;
 }
 
-input, button {
+input,
+button {
   border-radius: 5px;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.2);}
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
 
 .filteredList {
   text-align: left;
 }
 
 button {
-transition-duration: 0s;
+  transition-duration: 0s;
 }
 
 button:hover {
@@ -49,6 +51,7 @@ button:hover {
   color: red;
 }
 
-.prescription, .allergy {
+.prescription,
+.allergy {
   font-weight: 900;
 }
